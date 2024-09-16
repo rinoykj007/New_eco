@@ -137,6 +137,8 @@ export default function Home() {
               src="/placeholder.svg?height=50&width=150"
               alt="Maisam Trading LLC"
               className="h-12"
+              width={150} // Provide the width here
+              height={50} // Provide the height here
             />
           </Link>
           <div className="hidden md:flex items-center space-x-4">
@@ -467,6 +469,8 @@ export default function Home() {
           <div className="mt-8 pt-8 border-t border-gray-700 flex flex-col md:flex-row justify-between items-center">
             <Image
               src="/placeholder.svg?height=50&width=150"
+              width={150}
+              height={50}
               alt="Maisam Trading LLC"
               className="h-12 mb-4 md:mb-0"
             />
